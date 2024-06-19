@@ -37,7 +37,7 @@
                 <table id="datatable" class="table table-striped" data-toggle="data-table">
                     <thead>
                         <tr>
-                            <th>#</th>
+                            <th>No</th>
                             <th>Nama Kategori</th>
                             <th>Aksi</th>
                         </tr>
@@ -102,7 +102,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <th>#</th>
+                            <th>No</th>
                             <th>Nama Kategori</th>
                             <th>Aksi</th>
                         </tr>
