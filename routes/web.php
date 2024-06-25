@@ -18,7 +18,7 @@ use App\Http\Controllers\ProdukController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
     return view('auth.login');
 })->name('login');
 
@@ -66,4 +66,25 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
     Route::get('/admin/produk/edit/{id_produk}', [ProdukController::class, 'edit'])->name('admin/produk/edit');
     Route::put('/admin/produk/edit/{id_produk}', [ProdukController::class, 'update'])->name('admin/produk/update');
     Route::delete('/admin/produk/destroy/{id_produk}', [ProdukController::class, 'destroy'])->name('admin/produk/destroy');
+});
+
+
+Route::get('/', function () {
+    return view('frontend.home');
+});
+
+Route::get('/contact', function () {
+    return view('frontend.contact');
+});
+
+Route::get('/about', function () {
+    return view('frontend.about');
+});
+
+Route::get('/product', function () {
+    return view('frontend.product');
+});
+
+Route::get('/deskripsi', function () {
+    return view('frontend.deskripsi');
 });
