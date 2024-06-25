@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Hope UI | Responsive Bootstrap 5 Admin Dashboard Template</title>
+      <title>GreenCrop</title>
       
       <!-- Favicon -->
       <link rel="shortcut icon" href="{{asset('assets')}}/images/favicon.ico">
@@ -52,7 +52,7 @@
                            <a href="../../dashboard/index.html" class="navbar-brand d-flex align-items-center mb-3">
                               
                               <!--Logo start-->
-                              <div class="logo-main">
+                              {{-- <div class="logo-main">
                                   <div class="logo-normal">
                                       <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
@@ -69,13 +69,13 @@
                                           <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
                                       </svg>
                                   </div>
-                              </div>
+                              </div> --}}
                               <!--logo End-->
                               
                               
                               
                               
-                              <h4 class="logo-title ms-3">GreenCrop</h4>
+                              {{-- <h4 class="logo-title ms-3">GreenCrop</h4> --}}
                            </a>
                            <h2 class="mb-2 text-center">Sign In</h2>
                            <p class="text-center">Login to stay connected.</p>
